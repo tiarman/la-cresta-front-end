@@ -13,32 +13,36 @@ import './TheExteriors.css'
 const carosols = [
     {
         "id": 1,
-        "img": exterior1
+        "img": exterior1,
+        "img1": 'https://picsum.photos/id/1019/1000/600/'
     },
     {
         "id": 2,
-        "img": exterior2
+        "img": exterior2,
+        "img1": 'https://picsum.photos/id/1018/1000/600/'
     },
     {
         "id": 3,
-        "img": exterior3
+        "img": exterior3,
+        "img1": 'https://picsum.photos/id/1015/1000/600/'
     },
-    {
-        "id": 4,
-        "img": exterior4
-    },
-    {
-        "id": 5,
-        "img": exterior5
-    },
-    {
-        "id": 6,
-        "img": exterior5
-    },
-    {
-        "id": 7,
-        "img": exterior6
-    }
+    // {
+    //     "id": 4,
+    //     "img": exterior4,
+        
+    // },
+    // {
+    //     "id": 5,
+    //     "img": exterior5
+    // },
+    // {
+    //     "id": 6,
+    //     "img": exterior5
+    // },
+    // {
+    //     "id": 7,
+    //     "img": exterior6
+    // }
 ]
 const TheExteriors = () => {
     return (
@@ -59,7 +63,7 @@ const TheExteriors = () => {
                                     <img
                                         className="d-block"
                                         style={{ width: "100%", height: "450px" }}
-                                        src={slide.img}
+                                        src={slide.img1}
                                         alt="First slide"
                                     />
                                 </Fade>

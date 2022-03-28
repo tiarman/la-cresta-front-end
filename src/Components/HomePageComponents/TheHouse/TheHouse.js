@@ -9,11 +9,11 @@ import house4 from '../../../Images/house4.jpg'
 import house5 from '../../../Images/house5.jpg'
 
 let slides = [
-    <img  src={house1} alt="1" />,
-    <img  src={house2} alt="2" />  ,
-    <img  src={house3} alt="3" />  ,
-    <img  src={house4} alt="4" />  ,
-    <img src={house5} alt="5" />   ];
+    <img  src='https://picsum.photos/id/1015/1000/600/' alt="1" />,
+    <img  src='https://picsum.photos/id/1019/1000/600/' alt="2" />  ,
+    <img  src='https://picsum.photos/id/1018/1000/600/' alt="3" />  ,
+    <img  src='https://picsum.photos/id/1019/1000/600/' alt="4" />  ,
+    <img src='https://picsum.photos/id/1019/1000/600/' alt="5" />   ];
 
 
 const TheHouse = () => {
