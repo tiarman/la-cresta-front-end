@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './TheHouse.css'
 import {Carousel} from '3d-react-carousal';
 import house1 from '../../../Images/house1.jpg'

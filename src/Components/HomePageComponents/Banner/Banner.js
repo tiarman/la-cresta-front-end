@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button, Col, Container, Image, Row, Carousel } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import animation from '../../../Images/animation.mp4';
 import './Banner.css'
