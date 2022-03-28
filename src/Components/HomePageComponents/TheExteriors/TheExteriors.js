@@ -4,9 +4,6 @@ import Fade from 'react-reveal/Fade';
 import exterior1 from '../../../Images/exterior/exterior1.jpg';
 import exterior2 from '../../../Images/exterior/exterior2.jpg';
 import exterior3 from '../../../Images/exterior/exterior3.jpg';
-import exterior4 from '../../../Images/exterior/exterior4.jpg';
-import exterior5 from '../../../Images/exterior/exterior5.jpg';
-import exterior6 from '../../../Images/exterior/exterior6.jpg';
 import './TheExteriors.css'
 
 
@@ -25,24 +22,7 @@ const carosols = [
         "id": 3,
         "img": exterior3,
         "img1": 'https://picsum.photos/id/1015/1000/600/'
-    },
-    // {
-    //     "id": 4,
-    //     "img": exterior4,
-        
-    // },
-    // {
-    //     "id": 5,
-    //     "img": exterior5
-    // },
-    // {
-    //     "id": 6,
-    //     "img": exterior5
-    // },
-    // {
-    //     "id": 7,
-    //     "img": exterior6
-    // }
+    }
 ]
 const TheExteriors = () => {
     return (

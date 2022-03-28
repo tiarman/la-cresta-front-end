@@ -2,11 +2,6 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import './TheHouse.css'
 import {Carousel} from '3d-react-carousal';
-import house1 from '../../../Images/house1.jpg'
-import house2 from '../../../Images/house2.jpg'
-import house3 from '../../../Images/house3.jpg'
-import house4 from '../../../Images/house4.jpg'
-import house5 from '../../../Images/house5.jpg'
 
 let slides = [
     <img  src='https://picsum.photos/id/1015/1000/600/' alt="1" />,

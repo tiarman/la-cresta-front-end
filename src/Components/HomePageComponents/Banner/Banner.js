@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div className='banner'>
              <Fade top duration={20} distance="40px">
-                        <video autoPlay loop muted>
+                        <video loop muted>
                            <source src={animation} type="video/mp4" />
 
                        </video>
