@@ -28,8 +28,10 @@ const TheExteriors = () => {
     return (
         <section className="exterior" id='exterior'>
             <Container>
+            <Fade top>
                 <h5>THE EXTERIORS</h5>
                 <h3>Services We Provide</h3>
+                </Fade>
                 <br />
                 <br />
                 <Carousel className='exterior-align'>
@@ -56,7 +58,9 @@ const TheExteriors = () => {
                 </Carousel>
 
                 <br />
+                <Fade top>
                 <p className='house-palign'>The outdoor areas are on the same level as the interior so it allows you to move effortless between several exterior dining areas, pool area, decking and chill area to the outdoor kitchen with island bar and dining area. Each house will have a private garden with the center piece being the negative edge, glass tiled swimming pool on the same level as the house. There will be stairs down to the sloping garden for extra outdoor space. Each house will have several outdoor group seating and dining areas to ensure you have a choice of sun or shade throughout the day and evening, depending on the season and your solar preference.</p>
+                </Fade>
             </Container>
         </section>
     );
