@@ -38,3 +38,9 @@
     font-family: 'DM Serif Display', serif;
     font-size: 1.4rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .services{
+      margin-top: 50px;
+    }
+  }

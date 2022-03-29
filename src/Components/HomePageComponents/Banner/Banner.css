@@ -29,3 +29,58 @@
     object-fit: cover;
 
 }
+@media only screen and (min-width: 400px) {
+    .banner .text-wrapper{
+        width: 450px;
+        padding: 7px 14px;
+        font-size: 10px;
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .banner .text-wrapper{
+        width: 450px;
+        padding: 7px 14px;
+        font-size: 10px;
+        text-align: left;
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+}
+  /* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.banner .text-wrapper{
+    width: 550px;
+    padding: 10px 20px;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {.banner .text-wrapper{
+    width: 650px;
+    padding: 8px 16px;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {.banner .text-wrapper{
+    width: 650px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+}}
+
+  @media only screen and (max-width: 600px) {
+    .banner{
+        margin-bottom: 90px;
+    }
+  }
