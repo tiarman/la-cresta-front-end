@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 import './TheHouse.css'
 import {Carousel} from '3d-react-carousal';
 import Fade from 'react-reveal/Fade';
-import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
+// import {AnimatePresence, motion} from 'framer-motion/dist/framer-motion'
 
 let slides = [
     <img  src='https://picsum.photos/id/1015/1000/600/' alt="1" />,
