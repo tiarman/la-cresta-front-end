@@ -8,16 +8,16 @@
 }
 .banner .text-wrapper h1{
     color: black;
-    font-weight: 700;
     background-color: rgba(240, 248, 255, 0.329);
-    padding: 10px;
+    padding: 15px;
+    font-family: 'Abril Fatface', cursive;
 }
 .banner .text-wrapper p{
     color: black;
     font-size: 18px;
     font-weight: 700;
     background-color: rgba(240, 248, 255, 0.329);
-    padding: 10px;
+    padding: 15px;
 }
 .banner video {
     position: absolute;

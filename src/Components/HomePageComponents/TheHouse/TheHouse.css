@@ -34,3 +34,7 @@
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
   }
+  .house-palign{
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+  }

@@ -29,7 +29,7 @@ const TheInteriors = () => {
                 <ImageGallery items={images} />;
                 </Row>
                 <br />
-                <p>The areas are open plan and each floor is based on single level living. Wide opening sliding glass doors allow you to determine your level of outdoor living. Spain is all about living between Sol y Sombra. The ground floor flows seamlessly between the kitchen, indoor dining room, living room, shower room, studio, bathroom and utility room. The first floor has three full bedrooms with three full baths. The master bedroom has a private veranda as well as a shared patio with bedroom two.</p>
+                <p className='house-palign'>The areas are open plan and each floor is based on single level living. Wide opening sliding glass doors allow you to determine your level of outdoor living. Spain is all about living between Sol y Sombra. The ground floor flows seamlessly between the kitchen, indoor dining room, living room, shower room, studio, bathroom and utility room. The first floor has three full bedrooms with three full baths. The master bedroom has a private veranda as well as a shared patio with bedroom two.</p>
             </Container>
         </section>
     );

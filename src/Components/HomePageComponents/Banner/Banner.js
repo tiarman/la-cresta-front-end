@@ -14,7 +14,7 @@ const Banner = () => {
                     </Fade>
                     <Fade left duration={2000} distance="300px">
         <div className='text-wrapper'>
-            <h1>SEVEN NEW INDIVIDUAL VILLAS WITH PRIVATE POOLS</h1>
+            <h1>Seven New Individual Villas With Private Pools</h1>
             <br />
             <p>Unique and rare urban residential development set in a private community of 12,142m2. These spacious houses with individual gardens and private negative  pool are situated on a ridge line providing uninterrupted views of the Mediterranean sea , the entire coast line from Almunecar east and the majestic Sierra Nevada mountains The seven houses are approached up a private pine tree lined cul de sac drive with easy access to individual private secure parking. There is plenty of on-street parking for guests. </p>
 
